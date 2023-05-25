@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7775615578504121890}
   - component: {fileID: 481589032548659175}
   - component: {fileID: 2884294130313037205}
+  - component: {fileID: 2924510183046735830}
   m_Layer: 0
   m_Name: SM_Env_Grass_Tall_Clump_03_LOD0
   m_TagString: Untagged
@@ -40,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4110077751629344341}
-  m_Mesh: {fileID: 4102741219732498169, guid: 87990a367a53f854a9d07812ebf3b188, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!23 &2884294130313037205
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -83,6 +84,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2924510183046735830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4110077751629344341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fff89cdfbbcaa24cbae8518c257b75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quality: 1
 --- !u!1 &4591462578480151061
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +108,7 @@ GameObject:
   - component: {fileID: 2900864680707383306}
   - component: {fileID: 9070904784789428553}
   - component: {fileID: 1217276253812113524}
+  - component: {fileID: 1571558878693500097}
   m_Layer: 0
   m_Name: SM_Env_Grass_Tall_Clump_03_LOD2
   m_TagString: Untagged
@@ -166,6 +181,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1571558878693500097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4591462578480151061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fff89cdfbbcaa24cbae8518c257b75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quality: 0.1
 --- !u!1 &6171772110245735729
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,15 +243,15 @@ LODGroup:
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.09590808
+  - screenRelativeHeight: 0.999
     fadeTransitionWidth: 0.1
     renderers:
     - renderer: {fileID: 2884294130313037205}
-  - screenRelativeHeight: 0.03031919
+  - screenRelativeHeight: 0.999
     fadeTransitionWidth: 0.2
     renderers:
     - renderer: {fileID: 5674392069820156046}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.12129776
     fadeTransitionWidth: 0.2
     renderers:
     - renderer: {fileID: 1217276253812113524}
@@ -239,6 +267,7 @@ GameObject:
   - component: {fileID: 6937203823597846597}
   - component: {fileID: 7457377847904459642}
   - component: {fileID: 5674392069820156046}
+  - component: {fileID: 5130293385475235190}
   m_Layer: 0
   m_Name: SM_Env_Grass_Tall_Clump_03_LOD1
   m_TagString: Untagged
@@ -311,3 +340,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5130293385475235190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8115142776578687360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fff89cdfbbcaa24cbae8518c257b75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quality: 0.1
